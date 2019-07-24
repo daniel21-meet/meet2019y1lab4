@@ -33,11 +33,12 @@ turtle.shape ('arrow')
 d.shape ('circle')
 turtle.bgcolor ('purple')
 d.pencolor ('yellow')
-d.pensize(3)
+d.pensize(2)
 d.goto (0,100)
 turtle.pensize (7)
 turtle.pencolor ('green')
 turtle.goto (0,-100)
-
+turtle.goto (50,-100)
+d.goto (-50,100)
 
 turtle.mainloop
